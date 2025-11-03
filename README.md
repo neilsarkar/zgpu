@@ -31,6 +31,11 @@ pub fn build(b: *std.Build) void {
 }
 ```
 
+## Linking dawn
+
+You will also need to [add `dawn` as a dependency](https://github.com/zig-gamedev/zgpu/issues/16#issuecomment-2998019435) by copying the relevant entry or entries from the [zig-gamedev build.zig.zon](https://github.com/zig-gamedev/zig-gamedev/blob/main/build.zig.zon#L69
+)
+
 ## Sample applications
 
 - [gui test (wgpu)](https://github.com/zig-gamedev/zig-gamedev/tree/main/samples/gui_test_wgpu)
